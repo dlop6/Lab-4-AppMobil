@@ -10,10 +10,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.ui.platform.LocalContext
-import com.example.countapp.Recipe
 
 @Composable
-fun CounterScreen() {
+fun MainScreen() {
     var receta by remember { mutableStateOf("") }
     var url by remember { mutableStateOf("") }
     val context = LocalContext.current
